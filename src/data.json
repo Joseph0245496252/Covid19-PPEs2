@@ -1,0 +1,60 @@
+{
+    "products": [
+      {
+        "_id": "automatic-hand-sanitiser",
+        "image": "/images/automatic-hand-sanitiser.jpg",
+        "title": "Automatic Hand Sanitiser",
+        "description": "Pocket Disinfection Automatic Sanitising Machine For Home, Office, Car, Hypermarket, Hotel Sanitiser Sprayer, Made in Ghana.", 
+        "advertisement": "This Product has Been Vetted and Approved by Nation Health Organization.",
+        "availableSizes": ["M"],
+        "price": 150.00
+      },
+      { 
+        "_id": "mask2",
+        "image": "/images/mask2.jpg",
+        "title": "Washable Face Mask With T-shirt",
+        "description": "Reusable Washable Cloth Protection Face Cover Stretch Fashion Mask Availible in All Sizes and Colors.",
+        "advertisement": "This Product has Been Vetted and Approved by Nation Health Organization.",
+        "availableSizes": ["X", "M", "L"],
+        "price": 30.00
+      },
+      {
+        "_id": "thermometer-gun.jpg",
+        "image": "/images/thermometer-gun.jpg",
+        "title": "Digital Thermometer Gun",
+        "description": "3 in 1 Non-Contact Infrared Forehead Thermometer, Digital Three Color Backlit Display Instant Reading Temperature of Baby, Kid and Adult Availiable In All Sizes.",
+        "advertisement": "This Product has Been Vetted and Approved by Nation Health Organization.",
+        "availableSizes": ["X", "XL", "M", "L"],
+        "price": 250.00
+      },
+      {
+        "_id": "hi-vis-ves",
+        "image": "/images/hi-vis-ves.jpg",
+        "title": "High Visibility Waistcoat Vest",
+        "description": "XIAKE 8 Pockets High Visibility Class 2 High Visibility Waistcoat Vest, Zipper Front - Availible in all Colors and all Sizes.",
+        "advertisement": "This Product has Been Vetted and Approved by Nation Health Organization.",
+        "availableSizes": ["X", "L", "XL"],
+        "price": 20.00
+      },
+      {
+        "_id": "hand-sanitiser",
+        "image": "/images/hand-sanitiser.jpg",
+        "title": "Alcohol Based Hand Sanitiser",
+        "description": "Hand Sanitiser For Bathroom Reminder Stickers, Public Toilet Safety Warning Decal, Covid 19 Coronavirus Safety.",
+        "advertisement": "This Product has Been Vetted and Approved by Nation Health Organization.",
+        "availableSizes": ["M"],
+        "price": 20.00
+      },
+      {
+        "_id": "safety-mask",
+        "image": "/images/safety-mask.jpg",
+        "title": "Face Shield Full Face Covering",
+        "description": "Face Shield Full Face Covering Anti-Fog Shield Clear Glasses Safety Protection Visor Guard Visor Guard - Adjustable - Protective Film Must Be Peeled Off Availible In All Sizes.",
+        "advertisement": "This Product has Been Vetted and Approved by Nation Health Organization.",
+        "availableSizes": ["X", "M", "L", "XL"],
+        "price": 12.00
+      }
+      
+    ]
+  }
+  
