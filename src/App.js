@@ -68,7 +68,7 @@ class App extends React.Component {
         ),
     }));
   };
-  filterProducts = (event) => {
+  filterProducts = (event) => { 
     // impl
     console.log(event.target.value);
     if (event.target.value === "") {
