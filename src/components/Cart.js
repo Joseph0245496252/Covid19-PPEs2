@@ -1,8 +1,12 @@
 import React, { Component } from "react";
 import formatCurrency from "../util";
 import Fade from "react-reveal/Fade";
+import {createOrder} from "../redux/action/dataAction";
+import {connect} from "react-redux";
+import { CustomerBill } from "./CustomerBill";
 
-export default class Cart extends Component {
+
+class Cart extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -23,7 +27,16 @@ export default class Cart extends Component {
       address: this.state.address,
       cartItems: this.props.cartItems,
     };
+
     this.props.createOrder(order);
+
+    this.setState ({
+      name: "",
+      email: "",
+      address: "",
+      showCheckout: false,
+    })
+
   };
   render() {
     const { cartItems } = this.props;
@@ -123,11 +136,21 @@ export default class Cart extends Component {
                   </form>
                 </div>
                 </Fade>
+                
               )}
             </div>
           )}
         </div>
+        <CustomerBill 
+        name= {this.state.name}
+        email= {this.state.email}
+        address= {this.state.address}
+        cartItems= {this.props.cartItems}
+        /> 
+
       </div>
     );
   }
 }
+
+export default connect(null, {createOrder})(Cart) 

@@ -4,6 +4,8 @@ import data from "./data.json"
 import Products from './components/Products';
 import Filter from "./components/Filter";
 import Cart from "./components/Cart";
+import { ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 class App extends React.Component {
   constructor() {
@@ -84,6 +86,8 @@ class App extends React.Component {
   };
   render() {
     return (
+      <>
+     <ToastContainer/>
       <div className="grid-container">
         <header>
           <a href="/">Covid-19 PPEs</a>
@@ -114,6 +118,7 @@ class App extends React.Component {
         </main>
         <footer>All right is reserved.</footer>
       </div>
+      </>
     );
   }
 }
