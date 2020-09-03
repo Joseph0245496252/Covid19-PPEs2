@@ -88,8 +88,6 @@ class Home extends React.Component {
         <div className="row d-flex flex-column">
           <div className="col">
             <div className="grid-container">
-              
-
               <main>
                 <div className="content">
                   <div className="main">
@@ -112,6 +110,17 @@ class Home extends React.Component {
                       createOrder={this.createOrder}
                     />
                   </div>
+                  {/* <div className="container-fluid">
+                    <div className="row">
+                      <div className="col">
+                        <img
+                          src={require("./images/code1.jpg")}
+                          alt="code1"
+                          className="imageSize"
+                        />
+                      </div>
+                    </div>
+                  </div> */}
                 </div>
               </main>
               <footer>All right is reserved.</footer>

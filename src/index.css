@@ -33,20 +33,20 @@ textarea{
 .appNavbar a{
   color: white;
   font-weight: bold;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 
 /* header-image */
 .imageSize{
-  height: 25rem;
-  width: 25rem;
+  margin-left: 15px;
+ 
   
 }
-.headerContainer{
+/* .headerContainer{
   background-color: #ff8000;
   
  
-}
+} */
 /* .headerformcontainer{
   display: flex;
   flex-direction: row;
@@ -63,10 +63,18 @@ textarea{
 } */
 
 /* carouselImages */
-.carouselimg1{
-  /* width: 100px; */
-  height: 300px;
+/* .carouselimg1{
+  
+  
 }
+.carouselrow{
+  height: 100px;
+  width: 1200px;
+} */
+
+.carouselrow{
+  margin-bottom: -50px;
+} 
 
 
 
@@ -269,3 +277,6 @@ input {
   top: 2.5rem;
   z-index: 1000;
 }
+
+
+

@@ -48,8 +48,8 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav">
                 <Link to="/">Home</Link>
-                <Link to="/">Home</Link>
-                <Link to="/">Home</Link>
+                <Link to="/">About</Link>
+                <Link to="/">Contact</Link>
               </div>
             </div>
           </nav>

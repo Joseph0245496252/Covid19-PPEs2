@@ -2,33 +2,8 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="container-fluid">
-      <div className="row headerContainer">
-        <div className="col-4">
-          <img
-            src={require("../images/img1.jpg")}
-            alt="img1"
-            className="imageSize"
-          />
-        </div>
-        <div className="col-4">
-          <img
-            src={require("../images/img3.png")}
-            alt="img1"
-            className="imageSize"
-          />
-        </div>
-        <div className="col-4">
-          <img
-            src={require("../images/ima2.png")}
-            alt="img1"
-            className="imageSize"
-          />
-        </div>
-      </div>
-      {/* carousel-container */}
       <div className="container-fluid">
-        <div className="row">
+        <div className="row carouselrow">
           <div className="col">
             {/* carousel */}
             <div
@@ -38,13 +13,25 @@ function Header() {
             >
               <div className="carousel-inner">
                 <div className="carousel-item active">
-                  <img src={require("../images/img1.jpg")} className="d-block w-100 carouselimg1" alt="..." />
+                  <img
+                    src={require("../images/code1.jpg")}
+                    className="d-block w-100 carouselimg1"
+                    alt="..."
+                  />
                 </div>
                 <div className="carousel-item">
-                  <img src={require("../images/img3.png")} className="d-block w-100 carouselimg1" alt="..." />
+                  <img
+                    src={require("../images/code2.jpg")}
+                    className="d-block w-100 carouselimg1"
+                    alt="..."
+                  />
                 </div>
                 <div className="carousel-item">
-                  <img src={require("../images/ima2.png")} className="d-block w-100 carouselimg1" alt="..." />
+                  <img
+                    src={require("../images/code3.jpg")}
+                    className="d-block w-100 "
+                    alt="..."
+                  />
                 </div>
               </div>
               <a
@@ -75,7 +62,7 @@ function Header() {
           </div>
         </div>
       </div>
-    </div>
+
   );
 }
 
