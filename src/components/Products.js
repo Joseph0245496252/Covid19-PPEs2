@@ -9,8 +9,10 @@ export default class Products extends Component {
         super(props);
         this.state = {
           product: null,
+          
         };
       }
+      
       openModal = (product) => {
         this.setState({ product });
       };

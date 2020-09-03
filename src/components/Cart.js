@@ -3,7 +3,7 @@ import formatCurrency from "../util";
 import Fade from "react-reveal/Fade";
 import {createOrder} from "../redux/action/dataAction";
 import {connect} from "react-redux";
-import { CustomerBill } from "./CustomerBill";
+//import { CustomerBill } from "./CustomerBill";
 
 
 class Cart extends Component {
@@ -141,12 +141,7 @@ class Cart extends Component {
             </div>
           )}
         </div>
-        <CustomerBill 
-        name= {this.state.name}
-        email= {this.state.email}
-        address= {this.state.address}
-        cartItems= {this.props.cartItems}
-        /> 
+      
 
       </div>
     );
