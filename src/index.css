@@ -182,7 +182,8 @@ footer{
   border: 0.1rem #808080 solid;
 }
 .button.primary{
-background-color: #ff8000;
+background-color: rgb(23, 204, 99);
+/* background-color: #ff8000; */
 color: #ffffff;
 }
 /* Filter */
@@ -276,6 +277,23 @@ input {
   right: 1rem;
   top: 2.5rem;
   z-index: 1000;
+}
+
+/* footer section */
+.footerRow{
+  text-align: center;
+  
+}
+
+.usefullLinks{
+  width: 60px;
+  height: 2px;
+  
+}
+
+.copyright{
+  background-color: black;
+  color: #808080;
 }
 
 
