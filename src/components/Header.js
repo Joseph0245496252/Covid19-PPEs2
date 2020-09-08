@@ -11,24 +11,24 @@ function Header() {
               class="carousel slide carousel-fade"
               data-ride="carousel"
             >
-              <div className="carousel-inner">
+              <div className="carousel-inner code01">
                 <div className="carousel-item active">
                   <img
-                    src={require("../images/code1.jpg")}
+                    src={require("../images/code01.png")}
                     className="d-block w-100 carouselimg1"
                     alt="..."
                   />
                 </div>
-                <div className="carousel-item">
+                <div className="carousel-item code02">
                   <img
-                    src={require("../images/code2.jpg")}
+                    src={require("../images/code02.png")}
                     className="d-block w-100 carouselimg1"
                     alt="..."
                   />
                 </div>
-                <div className="carousel-item">
+                <div className="carousel-item code03">
                   <img
-                    src={require("../images/code3.jpg")}
+                    src={require("../images/code03.png")}
                     className="d-block w-100 "
                     alt="..."
                   />

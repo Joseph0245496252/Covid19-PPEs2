@@ -4,28 +4,28 @@
         "_id": "automatic-hand-sanitiser",
         "image": "/images/automatic-hand-sanitiser.jpg",
         "title": "Automatic Hand Sanitiser",
-        "description": "Pocket Disinfection Automatic Sanitising Machine For Home, Office, Car, Hypermarket, Hotel Sanitiser Sprayer, Made in Ghana.", 
+        "description": "Ponydash Touchless Hand Sanitizer/Alcohol/Gel Dispenser, Automatic Touch -Free Soap Dispenser for All Liquids, 450ml Auto Hand-Free Dispenser for Bathroom Kitchen Hospital.", 
         "advertisement": "This Product has Been Vetted and Approved by Nation Health Organization.",
         "availableSizes": ["M"],
-        "price": 150.00
+        "price": 250.00
       },
       { 
         "_id": "mask2",
         "image": "/images/mask2.jpg",
-        "title": "Washable Face Mask With T-shirt",
-        "description": "Reusable Washable Cloth Protection Face Cover Stretch Fashion Mask Availible in All Sizes and Colors.",
+        "title": "Disposable Face Masks With T-shirt",
+        "description": "Disposable Face Masks 3 Ply Protection Safety Mask for Air Pollution Personal Protective Mouth Indoor and Outdoor Use 50 Pcs Blue Availible in All Sizes and Colors.",
         "advertisement": "This Product has Been Vetted and Approved by Nation Health Organization.",
         "availableSizes": ["X", "M", "L"],
-        "price": 30.00
+        "price": 65.00
       },
       {
         "_id": "thermometer-gun.jpg",
         "image": "/images/thermometer-gun.jpg",
-        "title": "Digital Thermometer Gun",
+        "title": "Infrared Forehead Thermometer",
         "description": "3 in 1 Non-Contact Infrared Forehead Thermometer, Digital Three Color Backlit Display Instant Reading Temperature of Baby, Kid and Adult Availiable In All Sizes.",
         "advertisement": "This Product has Been Vetted and Approved by Nation Health Organization.",
         "availableSizes": ["X", "XL", "M", "L"],
-        "price": 250.00
+        "price": 170.00
       },
       {
         "_id": "hi-vis-ves",
@@ -34,7 +34,7 @@
         "description": "XIAKE 8 Pockets High Visibility Class 2 High Visibility Waistcoat Vest, Zipper Front - Availible in all Colors and all Sizes.",
         "advertisement": "This Product has Been Vetted and Approved by Nation Health Organization.",
         "availableSizes": ["X", "L", "XL"],
-        "price": 20.00
+        "price": 85.00
       },
       {
         "_id": "hand-sanitiser",
@@ -43,7 +43,7 @@
         "description": "Hand Sanitiser For Bathroom Reminder Stickers, Public Toilet Safety Warning Decal, Covid 19 Coronavirus Safety.",
         "advertisement": "This Product has Been Vetted and Approved by Nation Health Organization.",
         "availableSizes": ["M"],
-        "price": 20.00
+        "price": 35.00
       },
       {
         "_id": "safety-mask",
@@ -52,7 +52,7 @@
         "description": "Face Shield Full Face Covering Anti-Fog Shield Clear Glasses Safety Protection Visor Guard Visor Guard - Adjustable - Protective Film Must Be Peeled Off Availible In All Sizes.",
         "advertisement": "This Product has Been Vetted and Approved by Nation Health Organization.",
         "availableSizes": ["X", "M", "L", "XL"],
-        "price": 12.00
+        "price": 35.00
       }
       
     ]
